@@ -1,6 +1,6 @@
 # On-Device LLM Demo
 
-This repository contains a code example inspired by the LinkedIn post: **[On-Device LLMs: The Future of Private, Personalized AI](#)**. It demonstrates the use of on-device LLMs with Google's MediaPipe Tasks Gen AI API.
+This repository contains a code example inspired by the LinkedIn post: **[On-Device LLMs: The Future of Private, Personalized AI](#)**. It demonstrates the use of on-device LLMs with Google's [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide).
 
 ---
 
@@ -9,38 +9,49 @@ This repository contains a code example inspired by the LinkedIn post: **[On-Dev
 To run this project, you need to serve it using a static server. Below are several options based on your environment:
 
 ### Using Python
+
 For Python 3:
+
 ```bash
 python3 -m http.server 8000
 ```
 
 For Python 2:
+
 ```bash
 python -m SimpleHTTPServer 8000
 ```
 
 ### Using Node.js
+
 Install the `http-server` package globally:
+
 ```bash
 npm install -g http-server
 ```
+
 Run the server:
+
 ```bash
 http-server
 ```
 
 ### Using PHP
+
 ```bash
 php -S localhost:8000
 ```
 
 ### Using Ruby
+
 ```bash
 ruby -run -e httpd . -p 8000
 ```
 
 ### Using Docker
+
 Run the following command to serve the project via Docker:
+
 ```bash
 docker run --name static-server -v $(pwd):/usr/share/nginx/html:ro -p 8080:80 nginx
 ```
@@ -67,7 +78,19 @@ See the complete list of pre-converted models [here](https://ai.google.dev/edge/
 
 ---
 
-### Notes
-- Make sure to serve the project from the root directory to correctly load assets and dependencies.
-- Only use models that have been pre-converted for compatibility with MediaPipe and your hardware
+## **Prompts**
 
+All example prompts can be found in the **`prompts`** directory.  
+To achieve the best results, you must structure your input using **Gemma's prompt formatting**, which includes tokens like `<start_of_turn>` and `<end_of_turn>`. Proper formatting ensures optimal inference performance.
+
+---
+
+## See It in Action
+
+Watch this [YouTube video](https://youtu.be/qyqDejEIO5U) for a hands-on demonstration of the project in action.
+
+### Notes
+
+- Make sure to serve the project from the root directory to correctly load assets and dependencies.
+- Ensure you select the model variation optimized for your hardware, whether GPU or CPU, based on your system's capabilities.
+- Only use models that have been pre-converted for compatibility with MediaPipe and your hardware
