@@ -9,6 +9,7 @@ const resultDisplay = document.getElementById("output");
 const actionButton = document.getElementById("submit");
 
 // Path to your local model file, feel free to replace with a suitable model
+// See readme for list of supported models
 const modelPath = "./gemma2-2b-it-gpu-int8.bin";
 
 /**
