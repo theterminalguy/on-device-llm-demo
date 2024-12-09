@@ -4,6 +4,23 @@ This repository contains a code example inspired by the LinkedIn post: **[On-Dev
 
 ---
 
+## **Table of Contents**
+
+1. [Introduction](#on-device-llm-demo)
+2. [Setup](#setup)
+   - [Using Python](#using-python)
+   - [Using Node.js](#using-nodejs)
+   - [Using PHP](#using-php)
+   - [Using Ruby](#using-ruby)
+   - [Using Docker](#using-docker)
+3. [Supported Models](#supported-models)
+4. [Pre-Converted Models](#pre-converted-models)
+5. [Prompts](#prompts)
+6. [See It in Action](#see-it-in-action)
+7. [Notes](#notes)
+
+---
+
 ## Setup
 
 To run this project, you need to serve it using a static server. Below are several options based on your environment:
