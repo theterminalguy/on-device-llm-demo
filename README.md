@@ -1,6 +1,6 @@
 # On-Device LLM Demo
 
-This repository contains a code example inspired by the LinkedIn post: **[On-Device LLMs: The Future of Private, Personalized AI](#)**. It demonstrates the use of on-device LLMs with Google's [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide).
+This repository contains a code example inspired by the LinkedIn post: **[On-Device LLMs: The Future of Private, Personalized AI](https://www.linkedin.com/pulse/on-device-llms-future-private-personalized-ai-simon-peter-damian-zxkrc)**. It demonstrates the use of on-device LLMs with Google's [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide).
 
 ---
 
