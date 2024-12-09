@@ -1,0 +1,11 @@
+<start_of_turn>user Use the following context to answer the question:
+Context:
+- Source: NASA
+  Key: Space Exploration
+  Value: The Artemis program aims to land humans on the Moon by 2025.
+- Source: SpaceX
+  Key: Mars Mission
+  Value: SpaceX plans to send humans to Mars within the next decade.
+
+Question: What are the key goals of current space exploration programs?<end_of_turn>
+<start_of_turn>model
